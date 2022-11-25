@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".model.AddData">
+
+
+    <EditText
+        android:id="@+id/et_cariadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints="Enter cariadi"
+        android:hint="Enter Cariadi"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/et_vno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints="Enter vno"
+        android:hint="Enter Vno"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/et_vergidairesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints="Enter vergidairesi"
+        android:hint="Enter vergidairesi"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/et_adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints="Enter adres"
+        android:hint="Enter adres"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/et_telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints="Enter telefon"
+        android:hint="Enter telefon"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/et_sehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:autofillHints="Enter sehir"
+        android:hint="Enter sehir"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete"/>
+
+</LinearLayout>
